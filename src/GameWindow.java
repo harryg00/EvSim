@@ -1,23 +1,26 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 
 public class GameWindow extends JPanel implements Runnable {
     JFrame frame;
     Thread thread;
     int FPS = 60;
     long currentFPS;
+    generateMap mapPanel;
+    testOrganisms organismGeneration;
     public GameWindow(int Width, int Height) {
-
-        this.setSize(Width, Height);
-        this.setBackground(Color.black);
-        this.setDoubleBuffered(true);
         frame = new JFrame("EvSim");
         frame.setSize(Width, Height);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.add(this);
 
+        mapPanel = new generateMap();
+        frame.add(mapPanel);
+
+        organismGeneration = new testOrganisms();
+        frame.add(organismGeneration);
+
+        frame.add(this);
         frame.setVisible(true);
     }
     public void startGameThread(){
@@ -60,18 +63,8 @@ public class GameWindow extends JPanel implements Runnable {
     public void paintComponent(Graphics g){
         super.paintComponent(g);
 
-        Color[] terrainColors = {Color.GREEN, Color.BLUE, Color.GRAY, Color.YELLOW, Color.WHITE, new Color(13, 100, 10) /* dark green */ };
-
-        for (int row = 0; row < testMap.NUM_ROWS; row++) {
-            for (int col = 0; col < testMap.NUM_COLS; col++) {
-                double terrainType = testMap.map[row][col];
-                //Color terrainColor = terrainColors[terrainType];
-
-                //g.setColor(terrainColor);
-                //g.fillRect(col * testMap.CELL_SIZE, row * testMap.CELL_SIZE, testMap.CELL_SIZE, testMap.CELL_SIZE);
-            }
-        }
-
+        mapPanel.paintComponent(g);
+        organismGeneration.paintComponent(g);
 
         g.setFont(new Font("Agency FB", Font.BOLD, 20));
         g.setColor(Color.black);
