@@ -4,7 +4,7 @@ import java.awt.*;
 public class GameWindow extends JPanel implements Runnable {
     JFrame frame;
     Thread thread;
-    int FPS = 60;
+    int FPS = 1;
     long currentFPS;
     generateMap mapPanel;
     testOrganisms organismGeneration;

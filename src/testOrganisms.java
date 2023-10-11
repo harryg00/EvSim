@@ -5,7 +5,7 @@ import java.util.Random;
 public class testOrganisms extends JPanel {
     private static final int WIDTH = 1920;
     private static final int HEIGHT = 1080;
-    private static final int ORGANISM_COUNT = 750;
+    private static final int ORGANISM_COUNT = 50;
     private Random random = new Random();
 
     private void generateOrganisms(Graphics g) {
