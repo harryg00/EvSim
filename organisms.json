@@ -1,0 +1,21 @@
+{
+  "currentTerrain": "getTerrain(x, y)",
+  "isDead": false,
+  "organismId": 49,
+  "preferredTerrain": null,
+  "stats": {
+    "currentForm": 0,
+    "awareness": 0,
+    "size": 10,
+    "defence": 0,
+    "attack": 0,
+    "retentionRate": 50,
+    "health": 100,
+    "preferredFood": null,
+    "age": 0,
+    "speed": 1,
+    "preferredTemperature": null
+  },
+  "x-coordinate": 1682,
+  "y-coordinate": 310
+}

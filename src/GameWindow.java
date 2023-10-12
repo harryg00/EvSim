@@ -15,9 +15,13 @@ public class GameWindow extends JPanel implements Runnable {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         mapPanel = new generateMap();
+        //generateMap.WIDTH = WIDTH; // NEW
+        //generateMap.HEIGHT = HEIGHT; // NEW
         frame.add(mapPanel);
 
         organismGeneration = new testOrganisms();
+        //testOrganisms.WIDTH = WIDTH;
+        //testOrganisms.HEIGHT = HEIGHT;
         frame.add(organismGeneration);
 
         frame.add(this);
