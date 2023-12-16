@@ -1,7 +1,6 @@
+// This starts EvSim by loading the main menu
 public class Main {
     public static void main(String[] args) {
-        OpeningMenu window = new OpeningMenu(1920, 1080);
-        window.startMenuThread();
-    }
+        new OpeningMenu();
+    } // Creates a new opening menu
 }
-

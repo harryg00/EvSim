@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SideMenu">
+  <scrollpane id="801e3">
+    <constraints>
+      <xy x="20" y="20" width="268" height="728"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="false"/>
+      <doubleBuffered value="true"/>
+      <horizontalScrollBarPolicy value="32"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="27dc6" binding="SideMenu" layout-manager="GridLayoutManager" row-count="16" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints/>
+        <properties>
+          <autoscrolls value="true"/>
+          <background color="-10328731"/>
+          <preferredSize width="250" height="24"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2e008" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="EvSim"/>
+            </properties>
+          </component>
+          <component id="3f146" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="9557c" class="javax.swing.JLabel" binding="currentGameSpeedLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+              <text value="Current Game Speed:"/>
+            </properties>
+          </component>
+          <component id="b5aa8" class="javax.swing.JButton" binding="speedUpButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="115" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-9210250"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <text value="Speed Up"/>
+            </properties>
+          </component>
+          <component id="4ad36" class="javax.swing.JButton" binding="slowDownButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="115" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-9210250"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <text value="Slow Down"/>
+            </properties>
+          </component>
+          <component id="9f766" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="6f6f9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="Organism Information"/>
+            </properties>
+          </component>
+          <component id="9455f" class="javax.swing.JButton" binding="pauseGameButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-9210250"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <text value="Pause Game"/>
+            </properties>
+          </component>
+          <component id="dc4a4" class="javax.swing.JLabel" binding="currentYearLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+              <text value="Current Year:"/>
+            </properties>
+          </component>
+          <component id="c29a5" class="javax.swing.JButton" binding="loadPreviousSaveButton" default-binding="true">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-9210250"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <text value="Load Previous Save"/>
+            </properties>
+          </component>
+          <component id="f579f" class="javax.swing.JButton" binding="exitToMainMenuButton" default-binding="true">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-9210250"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <text value="Exit to Main Menu"/>
+            </properties>
+          </component>
+          <component id="eb321" class="javax.swing.JButton" binding="saveSimulationButton" default-binding="true">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-9210250"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <text value="Save Simulation"/>
+            </properties>
+          </component>
+          <tabbedpane id="a0dec" binding="organismInfoTab">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="400"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-10328731"/>
+              <foreground color="-393217"/>
+              <inheritsPopupMenu value="false"/>
+              <opaque value="false"/>
+              <tabLayoutPolicy value="0"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="3cd4a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Global View"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <preferredSize width="208" height="300"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="3f2a3">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10328731"/>
+                      <visible value="true"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="dcb00" binding="organismInformationPanel" layout-manager="GridLayoutManager" row-count="10" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints/>
+                        <properties>
+                          <autoscrolls value="true"/>
+                          <background color="-10328731"/>
+                          <enabled value="true"/>
+                          <focusable value="true"/>
+                          <visible value="true"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="3afe2" class="javax.swing.JLabel" binding="organismCountLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-1"/>
+                              <text value="Organism Count:"/>
+                            </properties>
+                          </component>
+                          <component id="45592" class="javax.swing.JLabel" binding="oldestOrganismLabel">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-1"/>
+                              <text value="Oldest Organism:"/>
+                            </properties>
+                          </component>
+                          <component id="f9843" class="javax.swing.JLabel" binding="healthiestOrganismLabel">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-1"/>
+                              <text value="Healthiest Organism:"/>
+                            </properties>
+                          </component>
+                          <component id="68b06" class="javax.swing.JLabel" binding="fastestOrganismLabel">
+                            <constraints>
+                              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-1"/>
+                              <text value="Fastest Organism:"/>
+                            </properties>
+                          </component>
+                          <component id="153f6" class="javax.swing.JLabel" binding="mostPopulatedTerrainLabel">
+                            <constraints>
+                              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-1"/>
+                              <text value="Most Populated Terrain:"/>
+                            </properties>
+                          </component>
+                          <component id="78e37" class="javax.swing.JLabel" binding="predatorCountLabel">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <enabled value="true"/>
+                              <foreground color="-1"/>
+                              <text value="Predator Count:"/>
+                            </properties>
+                          </component>
+                          <component id="e068" class="javax.swing.JLabel" binding="mostAware">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-1"/>
+                              <text value="Prey Count:"/>
+                            </properties>
+                          </component>
+                          <component id="2c88c" class="javax.swing.JLabel" binding="averageTemperatureLabel">
+                            <constraints>
+                              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-1"/>
+                              <text value="Average Temperature:"/>
+                            </properties>
+                          </component>
+                          <component id="2553e" class="javax.swing.JLabel" binding="leastPopulatedTerrainLabel">
+                            <constraints>
+                              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-1"/>
+                              <text value="Least Populated Terrain:"/>
+                            </properties>
+                          </component>
+                          <component id="698d3" class="javax.swing.JLabel" binding="newOrganismsSinceYearLabel">
+                            <constraints>
+                              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-1"/>
+                              <text value="New Organisms Since Year 0: "/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+              <grid id="68be3" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Key"/>
+                </constraints>
+                <properties>
+                  <background color="-10328731"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="85ba0" class="javax.swing.JLabel" binding="KeyLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="256f9">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                </children>
+              </grid>
+              <grid id="ade6" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Find Organism"/>
+                </constraints>
+                <properties>
+                  <background color="-10328731"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8e715" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-393217"/>
+                      <text value="Enter Organism ID to Find"/>
+                    </properties>
+                  </component>
+                  <vspacer id="502b9">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="e063c" class="javax.swing.JTextField" binding="organismToFind">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-6709859"/>
+                    </properties>
+                  </component>
+                  <component id="a146" class="javax.swing.JButton" binding="findButton" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-9210250"/>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="true"/>
+                      <focusPainted value="true"/>
+                      <text value="Find"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </tabbedpane>
+          <component id="3241c" class="javax.swing.JCheckBox" binding="showDeadOrganismsCheckBox" default-binding="true">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false">
+                <preferred-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-10328731"/>
+              <contentAreaFilled value="false"/>
+              <selected value="false"/>
+              <text value="Show Dead Organisms"/>
+            </properties>
+          </component>
+          <component id="8b13f" class="javax.swing.JCheckBox" binding="showConsoleCheckbox">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false">
+                <preferred-size width="230" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-10328731"/>
+              <contentAreaFilled value="false"/>
+              <selected value="false"/>
+              <text value="Show Console"/>
+            </properties>
+          </component>
+          <vspacer id="b3d8c">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="483da" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </scrollpane>
+</form>

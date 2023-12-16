@@ -1,12 +1,12 @@
 package FoodTypes;
 // Refer to FoodTypes.java for comments (C3.2.1 documentation)
-public class BeachGrassSeeds extends FoodTypes {
-    public BeachGrassSeeds(){
+public class GrassesHerbs extends FoodTypes {
+    public GrassesHerbs(){
         parentName = "Plant Spawn";
-        foodName = "Beach Grass Seeds";
+        terrainName = "Mountain";
+        foodName = "Grasses and Herbs";
         foodAvailability = 0.4;
         foodFactor = 0.25;
-        terrainName = "Beach";
         landBasedFood = true;
         waterBasedFood = false;
     }

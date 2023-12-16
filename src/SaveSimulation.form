@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SaveSimulation">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-10328731"/>
+      <maximumSize width="300" height="175"/>
+      <minimumSize width="150" height="100"/>
+      <preferredSize width="300" height="175"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="740a8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="10"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Save Simulation"/>
+        </properties>
+      </component>
+      <component id="e79e2" class="javax.swing.JTextField" binding="saveNameTextField" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6709859"/>
+          <caretColor color="-8881285"/>
+          <text value="Save Name"/>
+        </properties>
+      </component>
+      <component id="9c0c0" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="125" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9210250"/>
+          <borderPainted value="false"/>
+          <margin top="0" left="1" bottom="0" right="0"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <component id="4ee10" class="javax.swing.JButton" binding="saveSimulationButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="125" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9210250"/>
+          <borderPainted value="false"/>
+          <text value="Save Simulation"/>
+        </properties>
+      </component>
+      <vspacer id="f8dc1">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="7b903">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="647df">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

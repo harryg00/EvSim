@@ -1,4 +1,5 @@
 package FoodTypes;
+// Refer to FoodTypes.java for comments (C3.2.1 documentation)
 public class CoastalFruitPlants extends FoodTypes {
     public CoastalFruitPlants(){
         parentName = "Fruits and Berries";

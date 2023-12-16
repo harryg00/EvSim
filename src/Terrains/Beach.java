@@ -1,4 +1,5 @@
 package Terrains;
+// Refer to TerrainAttributes.java for comments (C3.1.1 documentation)
 public class Beach extends TerrainAttributes {
     public Beach(){
         terrainId = "Beach";
